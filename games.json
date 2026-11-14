@@ -1,0 +1,48 @@
+{
+  "studio": {
+    "name": "Stafbyte",
+    "tagline": "Small studio. Big little games.",
+    "about": "Stafbyte is an independent game studio from Australia. We make colourful, easy-to-pick-up games for your phone: pixel-art puzzles, cartoon tycoons and whatever we think of next.",
+    "play_url": "https://play.google.com/store/apps/developer?id=Stafbyte"
+  },
+  "games": [
+    {
+      "slug": "pixel-sudoku",
+      "name": "Pixel Sudoku",
+      "tagline": "Killer sudoku in pixel art",
+      "blurb": "Fill the grid, add up the cages, collect cards and postcards. Daily puzzles, events and four difficulties.",
+      "icon": "img/pixel-sudoku-icon.png",
+      "hero": "img/pixel-sudoku-scene.png",
+      "genre": "Puzzle",
+      "status": "Coming soon to Google Play",
+      "play_url": "",
+      "web_url": "",
+      "local_page": true,
+      "description": "Pixel Sudoku is a cosy pixel-art take on Killer Sudoku. Fill the grid so every row, column and 3x3 box holds 1 to 9, and every dashed cage adds up to the small number in its corner. No digit repeats inside a cage.",
+      "features": [
+        ["Four difficulties", "Easy, Medium, Hard and Expert puzzles, all with a single solution."],
+        ["Daily Challenge", "A new puzzle every day, with a calendar and gold stars."],
+        ["Events", "Sudoku Adventure, First Try Challenge, Creative Studio, Forest World and Cage Rush."],
+        ["Collect cards", "Win a game to get a card. Six themes and five rarities, from Common to Legendary."],
+        ["Postcards and stamps", "Finish Forest World levels to reveal postcards and collect stamps."],
+        ["Made for phones", "Notes, undo, hints, light and dark mode. Works offline."]
+      ],
+      "images": ["img/ps/cats-8.png", "img/ps/space-6.png", "img/ps/forest-7.png"],
+      "legal": ["privacy", "terms", "ads"],
+      "note": "Free to play with ads. Remove them any time with a one-time purchase."
+    },
+    {
+      "slug": "street-kings",
+      "name": "Street Kings: Idle Tycoon",
+      "tagline": "From the corner to the crown",
+      "blurb": "A cartoon idle tycoon. Build your block, hire your crew and keep the cash rolling in, even while you are away.",
+      "icon": "img/street-kings-icon.png",
+      "hero": "img/street-kings-shot.png",
+      "genre": "Idle / Tycoon",
+      "status": "Coming soon to Google Play",
+      "play_url": "",
+      "web_url": "https://streetkingsidle.github.io/",
+      "local_page": false
+    }
+  ]
+}
