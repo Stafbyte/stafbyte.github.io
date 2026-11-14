@@ -94,3 +94,4 @@ details p { margin: 8px 0 4px; color: var(--soft); }
 .game .foot { margin-top: auto; display: flex; flex-direction: column; gap: 14px; padding-top: 10px; }
 .game .meta { flex-wrap: nowrap; }
 .game .go { margin-top: 0; padding-top: 0; }
+.game .meta { flex-direction: column; align-items: flex-start; flex-wrap: wrap; gap: 8px; }
