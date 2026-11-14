@@ -6,6 +6,8 @@ from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SUDOKU = os.path.join(os.path.dirname(HERE), "Sudoku")
+import time
+VER = str(int(time.time()))  # cache-buster so browsers never keep an old stylesheet
 EMAIL = "support@stafbyte.com"  # public studio contact (already published on the Street Kings site)
 data = json.load(open(os.path.join(HERE, "games.json"), encoding="utf8"))
 S, GAMES = data["studio"], data["games"]
@@ -27,7 +29,7 @@ def page(title, desc, body, depth=0, active=""):
 <meta property="og:image" content="{up}img/logo.png">
 <meta name="theme-color" content="#1b1938">
 <link rel="icon" href="{up}img/favicon.png">
-<link rel="stylesheet" href="{up}style.css">
+<link rel="stylesheet" href="{up}style.css?v={VER}">
 </head>
 <body>
 <header class="site"><div class="wrap">
