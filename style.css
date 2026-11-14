@@ -95,3 +95,8 @@ details p { margin: 8px 0 4px; color: var(--soft); }
 .game .meta { flex-wrap: nowrap; }
 .game .go { margin-top: 0; padding-top: 0; }
 .game .meta { flex-direction: column; align-items: flex-start; flex-wrap: wrap; gap: 8px; }
+/* card header: identical icon frames, one-line taglines, blurbs always level */
+.game .title img { width: 56px; height: 56px; object-fit: cover; border: 3px solid var(--line); background: var(--bg2); }
+.game h3 { min-height: 2.3em; display: flex; align-items: flex-end; }
+.game .tag { font-size: 13px; white-space: nowrap; }
+.game .title > div { min-width: 0; }
