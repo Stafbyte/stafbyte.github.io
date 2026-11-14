@@ -7,7 +7,7 @@
   },
   "games": [
     {
-      "slug": "pixel-sudoku",
+      "slug": "pixelsudoku",
       "name": "Pixel Sudoku",
       "tagline": "Killer sudoku in pixel art",
       "blurb": "Fill the grid, add up the cages, collect cards and postcards. Daily puzzles, events and four difficulties.",
@@ -20,19 +20,46 @@
       "local_page": true,
       "description": "Pixel Sudoku is a cosy pixel-art take on Killer Sudoku. Fill the grid so every row, column and 3x3 box holds 1 to 9, and every dashed cage adds up to the small number in its corner. No digit repeats inside a cage.",
       "features": [
-        ["Four difficulties", "Easy, Medium, Hard and Expert puzzles, all with a single solution."],
-        ["Daily Challenge", "A new puzzle every day, with a calendar and gold stars."],
-        ["Events", "Sudoku Adventure, First Try Challenge, Creative Studio, Forest World and Cage Rush."],
-        ["Collect cards", "Win a game to get a card. Six themes and five rarities, from Common to Legendary."],
-        ["Postcards and stamps", "Finish Forest World levels to reveal postcards and collect stamps."],
-        ["Made for phones", "Notes, undo, hints, light and dark mode. Works offline."]
+        [
+          "Four difficulties",
+          "Easy, Medium, Hard and Expert puzzles, all with a single solution."
+        ],
+        [
+          "Daily Challenge",
+          "A new puzzle every day, with a calendar and gold stars."
+        ],
+        [
+          "Events",
+          "Sudoku Adventure, First Try Challenge, Creative Studio, Forest World and Cage Rush."
+        ],
+        [
+          "Collect cards",
+          "Win a game to get a card. Six themes and five rarities, from Common to Legendary."
+        ],
+        [
+          "Postcards and stamps",
+          "Finish Forest World levels to reveal postcards and collect stamps."
+        ],
+        [
+          "Made for phones",
+          "Notes, undo, hints, light and dark mode. Works offline."
+        ]
       ],
-      "images": ["img/ps/cats-8.png", "img/ps/space-6.png", "img/ps/forest-7.png"],
-      "legal": ["privacy", "terms", "ads"],
-      "note": "Free to play with ads. Remove them any time with a one-time purchase."
+      "images": [
+        "img/ps/cats-8.png",
+        "img/ps/space-6.png",
+        "img/ps/forest-7.png"
+      ],
+      "legal": [
+        "privacy",
+        "terms",
+        "ads"
+      ],
+      "note": "Free to play with ads. Remove them any time with a one-time purchase.",
+      "support": true
     },
     {
-      "slug": "street-kings",
+      "slug": "streetkingsidle",
       "name": "Street Kings: Idle Tycoon",
       "tagline": "From the corner to the crown",
       "blurb": "A cartoon idle tycoon. Build your block, hire your crew and keep the cash rolling in, even while you are away.",
@@ -41,8 +68,64 @@
       "genre": "Idle / Tycoon",
       "status": "Coming soon to Google Play",
       "play_url": "",
-      "web_url": "https://streetkingsidle.github.io/",
-      "local_page": false
+      "web_url": "",
+      "local_page": true,
+      "description": "Build your block, run your operations, hire a crew of characters and watch the cash roll in, even while you are away. A cartoon idle tycoon with a story, events and a street that never stops growing.",
+      "note": "Free to play. Optional ads and purchases. No account needed.",
+      "features": [
+        [
+          "Build and automate",
+          "Open new operations, upgrade them, hire managers and automate the whole block so it keeps earning while you are offline."
+        ],
+        [
+          "Collect your crew",
+          "Dozens of characters to find, level up and dress. Card packs and crates reward the way you play."
+        ],
+        [
+          "Chapters without end",
+          "A story across many chapters, then endless ones that keep getting tougher. Every chapter is a fresh climb from the bottom."
+        ],
+        [
+          "Events all year",
+          "Rotating and seasonal events open a separate park with its own levels, start cash and leaderboard tiers."
+        ],
+        [
+          "Fair and optional",
+          "Every ad is your choice and the game is fully playable without paying. Time skips credit your earnings as if the hours had passed."
+        ],
+        [
+          "Play your way",
+          "Short check-ins or long sessions. Your progress is saved on your device and there is nothing to sign up for."
+        ]
+      ],
+      "images": [
+        "img/sk/shot-block.png",
+        "img/sk/shot-shop.png",
+        "img/sk/shot-crate.png",
+        "img/sk/shot-events.png"
+      ],
+      "banners": [
+        "img/sk/moon.png",
+        "img/sk/dino.png",
+        "img/sk/pirate.png"
+      ],
+      "legal": [],
+      "extra_pages": [
+        [
+          "privacy",
+          "Privacy Policy"
+        ],
+        [
+          "support",
+          "Support"
+        ],
+        [
+          "testers",
+          "Become a tester"
+        ]
+      ],
+      "discord": "https://discord.gg/XURKJn7upJ",
+      "import_from": "_src/streetkingsidle"
     }
   ]
 }
