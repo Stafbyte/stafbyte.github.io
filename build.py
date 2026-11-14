@@ -53,8 +53,10 @@ def card(g):
   <div class="body">
     <div class="title"><img src="{g['icon']}" alt=""><div><h3>{esc(g['name'])}</h3><p class="tag">{esc(g['tagline'])}</p></div></div>
     <p>{esc(g['blurb'])}</p>
-    <div class="meta"><span class="pill">{esc(g['genre'])}</span><span class="pill soon">{esc(g['status'])}</span></div>
-    <div class="go"><a class="btn" href="{href}"{ext}>View game</a></div>
+    <div class="foot">
+      <div class="meta"><span class="pill">{esc(g['genre'])}</span><span class="pill soon">{esc(g['status'].replace(' to Google Play', ''))}</span></div>
+      <div class="go"><a class="btn" href="{href}"{ext}>View game</a></div>
+    </div>
   </div>
 </article>"""
 
